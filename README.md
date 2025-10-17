@@ -51,8 +51,8 @@ The application consists of a Streamlit frontend and a FastAPI backend.
 ### 1. Clone and Install
 
 ```bash
-git clone <project-url>
-cd <project-directory>
+git clone https://github.com/sametcankoksoy/hr-assistant
+cd hr-assistant
 
 # Install the required Python packages
 pip install -r requirements.txt
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ### 2\. Set Up Environment Variables
 
-1.  Create a file named `.env` in the project's root directory. [cite\_start]The `.gitignore` file is already configured to ignore this file[cite: 2].
+1.  Create a file named `.env` in the project's root directory.The `.gitignore` file is already configured to ignore this file[cite: 2].
 2.  Add your Google AI Studio API key to this file:
     ```   
     # .env file
